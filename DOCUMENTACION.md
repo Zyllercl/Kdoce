@@ -33,6 +33,7 @@ sudo chmod +x odoo_install.sh
 ### Ejecutar archivo Odoo_install.sh
 
 ### Data Instalacion Odoo
+```bash
 Port: 8069
 User service: odoo
 Configuraton file location: /etc/odoo-server.conf
@@ -44,5 +45,6 @@ Password superadmin (database): admin
 Start Odoo service: sudo service odoo-server start
 Stop Odoo service: sudo service odoo-server stop
 Restart Odoo service: sudo service odoo-server restart
+```
 
 
