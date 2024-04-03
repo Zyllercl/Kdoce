@@ -46,5 +46,3 @@ Start Odoo service: sudo service odoo-server start
 Stop Odoo service: sudo service odoo-server stop
 Restart Odoo service: sudo service odoo-server restart
 ```
-
-
