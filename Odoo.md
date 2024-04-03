@@ -39,7 +39,7 @@ __manifest__.py -> Es un JSON con la configuracion del plugin
 
 ### Creacion de un Modelo en '/models/'
 ```python
-Cuando se crea un archivo dentro de la carpeta '/Models/' se debe agregar al __init__.py de la siguiente forma:
+Cuando se crea un archivo dentro de la carpeta '/Models/', por ejempplo: 'nombre_archivo.py' se debe agregar al __init__.py de la siguiente forma:
 
     from . import 'nombre_archivo'
 ```
