@@ -12,7 +12,7 @@ Addons = Plugins -> Modulos del Sistema
 ```
 
 ## Definicion de rutas de un Modulo Personalizado
-```python
+```bash
 /models/    -> Archivos Python donde se define cada objeto o clase
 /views/     -> Archivos XML de las vistas Web de los modelos
 /reports/   -> Todo archivo generados por un XML se guardan com PDF 
