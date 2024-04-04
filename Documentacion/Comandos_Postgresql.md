@@ -9,6 +9,10 @@ sudo -u postgres psql
 ```bash
 CREATE USER 'nombre_usuario' WITH password 'password'
 ```
+## Cambiar password Usuario
+```bash
+ALTER USER usuario WITH PASSWORD 'nueva_password'
+```
 
 ## Eliminar un Usuario
 ```bash
@@ -50,7 +54,6 @@ o
 
 psql -U postgres nombredb < archivo_restauracion.sql
 ```
-
 
 ## Obtener ayuda
 ```bash
