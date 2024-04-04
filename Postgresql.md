@@ -32,7 +32,7 @@ psql -U 'nombre_usuario' 'nombre_db' [X]
 
 ## Dump db a un archivo
 ```bash
- pg_dump -U nombre_usuario nombre_db > db.out
+ pg_dump -U nombre_usuario nombre_db > db.out [X]
 ```
 
 ## Dump todas las Bases de Datos
