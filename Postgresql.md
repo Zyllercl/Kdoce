@@ -54,7 +54,7 @@ psql -U postgres nombredb < archivo_restauracion.sql
 
 ## Obtener ayuda
 ```bash
-\h
+\help
 ```
 
 ## Salir de Postgres
@@ -64,12 +64,12 @@ psql -U postgres nombredb < archivo_restauracion.sql
 
 ## Lista de Bases de Datos
 ```bash
-\l
+\list
 ```
 
 ## Seleccionar una Base de Datos
 ```bash
-\c 'nombre_db'
+\connect 'nombre_db'
 ```
 
 ## Listar tablas 
