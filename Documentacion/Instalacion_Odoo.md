@@ -5,9 +5,6 @@
 sudo apt-get update && apt-get upgrade
 ```
 
-### Clonar Repositorio Privado
-git clone https://{TOKEN}:x-oauth-basic@github.com/UsuarioGit/NombreRepository.git
-
 ### Configurar Github 
 git config --global user.name "Nombre"
 git config --global user.email "Correo"
