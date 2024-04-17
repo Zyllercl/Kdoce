@@ -5,6 +5,11 @@
 sudo apt-get update && apt-get upgrade
 ```
 
+## Creacion de un nuevo Usuario
+```bash
+sudo useradd -m -d /opt/odoov14 -U -r -s /bin/bash odoov14
+```
+
 ### Configurar Github 
 git config --global user.name "Nombre"
 git config --global user.email "Correo"
