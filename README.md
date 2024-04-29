@@ -4,6 +4,7 @@ Documentacion Kdoce
 ## Instalacion 'pgadmin4'
 ```bash
 - Instalar Postgresql
+> sudo apt install postgresql
 > sudo apt install postgresql postgresql-contrib -y
 
 - Instalar curl
